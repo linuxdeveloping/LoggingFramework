@@ -8,9 +8,9 @@
 <p> with the following command you can create a shared libary out of the code snippets</p>
 
 <b>
-bash$> gcc -c -fPIC logger.c -o logger.o
-bash$> gcc -shared logger.o -o libClogger.so
-bash$> rm logger.o 
+bash$> gcc -c -fPIC logger.c -o logger.o <br/>
+bash$> gcc -shared logger.o -o libClogger.so<br/>
+bash$> rm logger.o <br/>
 </b>
 
 <p> now copy logger.so into the directory where your linux distro stores the shared libaries
@@ -18,5 +18,5 @@ bash$> rm logger.o
 </p>
 
 <b>
-bash$> gcc [yourcode.c ...] -lClogger 
+bash$> gcc [yourcode.c ...] -lClogger <br/> 
 </b>
